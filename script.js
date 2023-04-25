@@ -39,4 +39,6 @@ restart.addEventListener("click", () => {
 jumper.addEventListener("click", jump)
   
   document.addEventListener("keydown", jump);
+
+  //end
   
