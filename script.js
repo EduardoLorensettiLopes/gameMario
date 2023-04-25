@@ -1,4 +1,4 @@
-const [mario, pipe, restart] = [".mario", ".pipe", ".restart"].map((item)=>{
+const [mario, pipe, restart, jumper] = [".mario", ".pipe", ".restart", ".jumper"].map((item)=>{
     return document.querySelector(item);
   });
   
@@ -35,6 +35,8 @@ const [mario, pipe, restart] = [".mario", ".pipe", ".restart"].map((item)=>{
 restart.addEventListener("click", () => {
      location.reload(true)
 })
+
+jumper.addEventListener("click", jump)
   
   document.addEventListener("keydown", jump);
   
